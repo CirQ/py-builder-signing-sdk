@@ -6,3 +6,6 @@ test:
 
 fmt:
 	black ./.
+
+build:
+	python -m build

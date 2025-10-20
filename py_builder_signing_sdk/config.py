@@ -7,7 +7,6 @@ from .sdk_types import (
     BuilderType,
     BuilderHeaderPayload,
     RemoteBuilderConfig,
-    RemoteSignerPayload,
 )
 
 
