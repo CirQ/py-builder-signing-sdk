@@ -7,7 +7,6 @@ DELETE = "DELETE"
 PUT = "PUT"
 
 
-
 def request(endpoint: str, method: str, headers=None, data=None):
     try:
         resp = requests.request(
