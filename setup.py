@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="engineering@polymarket.com",
     maintainer="Polymarket Engineering",
     maintainer_email="engineering@polymarket.com",
-    description="Pyth",
+    description="Python builder signing sdk",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Polymarket/py-clob-client",
