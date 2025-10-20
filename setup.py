@@ -13,7 +13,7 @@ setuptools.setup(
     description="Python builder signing sdk",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Polymarket/py-clob-client",
+    url="https://github.com/Polymarket/py-builder-signing-sdk",
     install_requires=[
         "python-dotenv",
         "requests",
