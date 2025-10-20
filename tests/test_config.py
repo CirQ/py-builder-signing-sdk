@@ -111,10 +111,7 @@ class TestBuilder(TestCase):
             POLY_BUILDER_SIGNATURE="8xh8d0qZHhBcLLYbsKNeiOW3Z0W2N5yNEq1kCVMe5QE=",
         ).to_dict()
         responses.add(
-            responses.POST,
-            "http://localhost:3000/sign",
-            json=mock_resp,
-            status=200
+            responses.POST, "http://localhost:3000/sign", json=mock_resp, status=200
         )
 
         builder_config = BuilderConfig(
